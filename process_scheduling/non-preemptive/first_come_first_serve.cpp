@@ -15,8 +15,7 @@ struct Process
     int waitingTime;
 };
 
-void calculateTimes(std::vector<Process> &processes)
-{
+void calculateTimes(std::vector<Process> &processes){
     processes[0].waitingTime = 0;
     processes[0].turnaroundTime = processes[0].burstTime;
     for (size_t i = 1; i < processes.size(); ++i)
