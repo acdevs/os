@@ -38,7 +38,7 @@ void* consumer(void* arg) {
 
         sem_post(&mutex);
         sem_post(&empty);
-        sleep(2);
+        sleep(10);
     }
     pthread_exit(NULL);
 }
