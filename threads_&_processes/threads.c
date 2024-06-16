@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-#include <unistd.h> // Include this header for the sleep function
+#include <unistd.h>
 
 // Function to be executed by the thread
 void *thread_function(void *arg) {
