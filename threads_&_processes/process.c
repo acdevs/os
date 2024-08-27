@@ -3,6 +3,8 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <sched.h>
+#include <sys/wait.h>
+
 
 int main() {
     // Fork a child process
